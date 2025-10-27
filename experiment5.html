@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration Form</title>
+</head>
+<body><form action="submit.html" method="post"><center>
+    <h1><b>Student Ragistration Portal</b></h1>
+  <label for="fname"><b>Student name:</b></label>
+  <input required="text" placeholder="First" id="lname" name="lname" >
+  
+  <input required="text" placeholder="Last" id="lname" name="lname" ><br>
+  <label for="Father's name"><b>Father's name:</b></label>
+  <input required="text"  id="Father's name" name="Father's name" ><br>
+  <label for="DOB"><b>Date of Birth:</b></label>
+  <input required="text" placeholder="Day" id="DOB" name="DOB">
+  <input required="text" placeholder="Month" id="DOB" name="DOB" >
+  <input required="text" placeholder="Year" id="DOB" name="DOB" ><br>
+  <label for="Mobile number"><b>Mobile number:</b></label>
+  <input type="text" id="Mobile number" name="Mobile number" value="+91" readonly>
+  <input required="text" placeholder="XXXXXXXXXX" id="Mobile number" name="Mobile number" ><br>
+  <label for "email"><b>email address:</b></label>
+  <input required="text" placeholder="uvdt@example.com" id="email" name="email"><br>
+  <label for="pass"><b>Password:</b></label>
+  <input required="text" id="pass" name="pass"><br>
+  <label for="gender"><b>Gender:</b></label>
+  <input type="radio" id="gender" name="gender" value="Male">
+   <label for="gender">Male</label>
+  <input type="radio" id="gender" name="gender" value="Female">
+  <label for="gender"> Female</label>
+  <input type="radio" id="gender" name="gender" value="Other">
+  <label for="gender">Other</label><br>
+  <label for="course"><b>Select Course:</b></label>
+  <select id="course" name="course" size="3" multiple>
+    <option value="BTech">Btech</option>
+    <option value="BCA">BCA</option>
+    <option value="B.Com">B.Com</option>
+    <option value="MCA">MCA</option>
+    <option value="MTech">Mtech</option>
+  </select><br>
+    <label for="state"><b>State:</b></label>
+  <input required="text"  id="state" name="state"><br>
+    <label for="pincode"><b>Pincode:</b></label>
+  <input required="text"  id="pincode" name="pincode"><br>
+   <label for="message"><b>Address:</b></label><br>
+  <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
+  <label for="aadhar"><b>Upload your aadhar card:</b></label>
+  <input required="file" type="file" id="aadhar" name="aadhar"><br>
+  <label for="image"><b>Upload your Image:</b></label>
+  <input required="file" type="file" id="image" name="image"><br>
+  <input type="submit" value="Register">
+ </center></form> 
+</body>
+</html>

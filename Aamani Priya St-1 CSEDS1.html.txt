@@ -1,0 +1,34 @@
+<html>
+<head>
+<title> E-Commerce Website </title>
+</head>
+<body>
+<h1><center><b> Amazon</b></center></h1><br>
+<nav><center>
+<a href="cart.html"> Cart</a>|
+<a href="wishlist.html">Wishlist</a>|
+<a href="Grocery.html>Grocery</a>|
+<a href="health.html>Grocery</a>|
+<a href="Grocery.html>Health</a>|
+<a href="contact.html>Contact</a>
+</center>
+</nav><br>
+<h1><b>Cart</b></h1><br>
+<video width="500" height="300" controls>
+<source src="abc.video" type="video/mp4">
+</source></video><br>
+<h1><b>Wishlist</b></h1><br>
+<iframe width="300" height="300" src="xyz youtube" title="Youtube video Player" frameborder="0" allows=abc full screen access.></iframe><br>
+<h1><b>Grocery</b></h1><br>
+<audio controls>
+<source src="abc" type="audio/mpeg">
+</source>
+</audio><br>
+<h1><b>Health</b></h1><br>
+<img src="efg" width="300" height="300"></image><br>
+<h1><b>Contact</b></h1><br>
+<h1> <b>Email Address:-amazon@gmail.com</b></h1><br>
+<h1><b>Redirecting to Amazon Prime</b></h1><br>
+<a href="amazonprime.html">Amazon Prime</a>
+</body>
+</html>
